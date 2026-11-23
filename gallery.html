@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>数字展厅 · 安徽数字非遗博物馆</title>
+<meta name="description" content="以生成式影像与工序图解，重新观看安徽非遗的工艺细节。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23A83A28'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%23F7F3EA' font-family='serif'%3E皖%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="gallery">
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="sec-kicker reveal">Digital Gallery</p>
+      <h1 class="sec-title reveal">数字展厅<small>Where the Process Becomes Visible</small></h1>
+      <p class="lead reveal" style="margin-top:20px">
+        一件宣纸要晒一年，一盏鱼灯只亮三夜。实拍拍不到的部分——光的温度、手的力度、
+        锣鼓响起前的那一秒——我们用生成式影像与工序图解去补。
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="gallery-grid" id="gallery-tiles"></div>
+      <p class="card-meta reveal" style="margin-top:24px;max-width:60ch">
+        图为示意性再创作，不作为非遗项目本体的影像记录；正式发布时应替换为授权实拍素材。
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--paper2" aria-labelledby="t-flow">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="sec-kicker">Workflow</p>
+        <h2 class="sec-title" id="t-flow">一条影像的四道工序<small>从考据到成片</small></h2>
+        <p class="lead">
+          非遗题材最怕"好看但不对"。所以每一次生成之前，先做考据；每一次输出之后，先请传承人看一眼。
+        </p>
+      </div>
+      <div class="flow">
+        <div class="flow-step reveal">
+          <span>STEP 01</span>
+          <b>考据</b>
+          <p>查文献、看实物、访传承人。确定器型、纹样、工具与工序的先后顺序，先保证"不出错"。</p>
+        </div>
+        <div class="flow-step reveal">
+          <span>STEP 02</span>
+          <b>分镜与关键帧</b>
+          <p>把工序拆成可以单独成像的瞬间，用生成模型做出关键帧，统一光线方向与色温。</p>
+        </div>
+        <div class="flow-step reveal">
+          <span>STEP 03</span>
+          <b>动起来</b>
+          <p>图生视频补齐动作：捞纸的抬帘、晒纸的转身、鱼灯的起伏。只做环境与过场，不做人物特写。</p>
+        </div>
+        <div class="flow-step reveal">
+          <span>STEP 04</span>
+          <b>校色与合成</b>
+          <p>按宣纸底色统一色调，叠加真实录音（锣鼓、水声、纸响），最后请传承人核对细节。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="t-note">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="sec-kicker">Statement</p>
+        <h2 class="sec-title" id="t-note">为什么用生成影像<small>而不是只用实拍</small></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-block reveal" style="border-top:0;padding-top:0">
+          <h3>三个理由</h3>
+          <ul>
+            <li>有些工序一年只有一次窗口（晒纸要等伏天），实拍成本极高。</li>
+            <li>有些细节肉眼看不见（帘上的纤维、釉下的刻痕），需要被放大。</li>
+            <li>有些场景已经消失（老作坊、旧工具），只能靠考据重建。</li>
+          </ul>
+        </div>
+        <div class="about-block reveal" style="border-top:0;padding-top:0">
+          <h3>三条底线</h3>
+          <ul>
+            <li>不生成"看起来像"的假文物，器型、纹样必须有出处。</li>
+            <li>不替代实拍：人物、口述、现场仪式仍然以实录为准。</li>
+            <li>所有生成画面明确标注，不与文献影像混用。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
